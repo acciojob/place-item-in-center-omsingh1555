@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  width: 100vw;            /* Full viewport width */
+  height: 100vh;           /* Full viewport height */
+}
+
+/* Styling for item-1 */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
